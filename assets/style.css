@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 20px auto 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.square {
+  flex-basis: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: #f33;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+.circle {
+  background-color: azure;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
